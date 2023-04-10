@@ -1,0 +1,18 @@
+---
+name: Timer
+version: 1.0.0
+api: [4.0.0]
+author: AmitxD
+main: AmitxD\Timer\Main
+src-namespace-prefix: AmitxD\Timer
+description: A simple timer plugin for PocketMine-MP
+commands:
+  timer:
+    description: Manage your timer
+    usage: "/timer <add|check|remove> [time]"
+    permission: timer.use
+permissions:
+  timer.use:
+    description: "Allows players to use the timer commands"
+    default: true
+...
