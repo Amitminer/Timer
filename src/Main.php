@@ -42,9 +42,9 @@ class Main extends PluginBase{
                         $name = $sender->getName();
                         if(isset($this->timers[$name])){
                             unset($this->timers[$name]);
-                            $sender->sendMessage($this->prefix . "Timer removed!");
+                            $sender->sendMessage("Timer removed!");
                         }else{
-                            $sender->sendMessage($this->prefix . "You have no active timer!");
+                            $sender->sendMessage("You have no active timer!");
                         }
                         break;
                 case "check":
